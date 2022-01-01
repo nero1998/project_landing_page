@@ -152,3 +152,46 @@ h1 {
   font-size: 36px;
   font-weight: bold;
 }
+
+/* FORTH SECTION  */
+.section4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 350px;
+}
+
+.container4 {
+  background-color: #3882f6;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 60%;
+  width: 75%;
+}
+
+.ctn-bold {
+  font-size: 30px;
+  font-weight: bold;
+  color: #f9faf8;
+}
+
+.ctn-text {
+  font-size: 20px;
+  color: #f9faf8;
+}
+
+.ctn-btn {
+  font-size: 30px;
+  padding: 5px 15px;
+  border-radius: 10px;
+  color: #f9faf8;
+  background-color: #3882f6;
+  border: solid 2px #f9faf8;
+  cursor: pointer;
+}
+
+.ctn-btn:hover {
+  background-color: #f9faf8;
+  color: #3882f6;
+}
