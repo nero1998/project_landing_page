@@ -3,6 +3,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -34,7 +35,10 @@ body {
 }
 
 .hero-img {
-  width: 650px;
+  /* width: 650px; */
+  width: 50%;
+  height: 50%;
+  border-radius: 15px;
 }
 
 .header {
@@ -66,6 +70,7 @@ a:visited {
 h1 {
   font-size: 43px;
   color: #f9faf8;
+  font-weight: bolder;
 }
 
 .hero-text {
@@ -93,4 +98,31 @@ h1 {
 
 .dive-in:hover {
   background-color: rgb(163, 94, 253);
+}
+
+/* SECOND SECTION  */
+
+.section2 {
+  text-align: center;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.photos-text {
+  font-size: 36px;
+}
+
+.imgs-mega-container {
+  display: flex;
+  gap: 30px;
+}
+
+.imgs div img {
+  width: 255px;
+  border: solid 5px #3882f6;
+  border-radius: 15px;
 }
