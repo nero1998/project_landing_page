@@ -195,3 +195,18 @@ h1 {
   background-color: #f9faf8;
   color: #3882f6;
 }
+
+/* FOOTER  */
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #211c39;
+  height: 70px;
+  gap: 10px;
+}
+
+.symbol {
+  color: #e5e7eb;
+  font-size: 18px;
+}
