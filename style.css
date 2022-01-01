@@ -123,6 +123,26 @@ h1 {
 
 .imgs div img {
   width: 255px;
-  border: solid 5px #3882f6;
+  border: 5px solid rgb(163 94 253);
   border-radius: 15px;
+}
+
+/* THIRD SECTION  */
+.section3 {
+  height: 350px;
+  background-color: #e5e7eb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote,
+.author {
+  text-align: right;
+  font-style: italic;
+  font-size: 36px;
+}
+
+.author {
+  font-weight: bold;
 }
