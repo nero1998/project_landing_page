@@ -136,13 +136,19 @@ h1 {
   align-items: center;
 }
 
-.quote,
-.author {
-  text-align: right;
+.quotecnt {
+  width: 750px;
+}
+
+.quote {
+  text-align: left;
   font-style: italic;
   font-size: 36px;
 }
 
 .author {
+  text-align: right;
+  font-style: italic;
+  font-size: 36px;
   font-weight: bold;
 }
