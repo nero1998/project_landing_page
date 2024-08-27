@@ -125,10 +125,23 @@ h1 {
   gap: 30px;
 }
 
-.imgs div img {
-  width: 255px;
+.imgs div {
   border: 5px solid rgb(163 94 253);
   border-radius: 15px;
+  overflow: hidden;
+}
+
+.imgs div img {
+  width: 255px;
+
+  filter: brightness(100%);
+  transition: all 0.4s;
+  transform: scale(110%);
+}
+
+.imgs div img:hover {
+  filter: brightness(135%);
+  transform: scale(120%);
 }
 
 /* THIRD SECTION  */
